@@ -1,0 +1,65 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ServerConsole (Default Port 5555)",
+            "request": "launch",
+            "mainClass": "edu.seg2105.edu.server.ui.ServerConsole",
+            "projectName": "2_d2571fc3",
+            "args": [],
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "ServerConsole (Port 8080)",
+            "request": "launch",
+            "mainClass": "edu.seg2105.edu.server.ui.ServerConsole",
+            "projectName": "2_d2571fc3",
+            "args": ["8080"],
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "ClientConsole (testuser)",
+            "request": "launch",
+            "mainClass": "edu.seg2105.client.ui.ClientConsole",
+            "projectName": "2_d2571fc3",
+            "args": ["testuser", "localhost", "5555"],
+            // "args": [],
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "ClientConsole (john123)",
+            "request": "launch",
+            "mainClass": "edu.seg2105.client.ui.ClientConsole",
+            "projectName": "2_d2571fc3",
+            "args": ["john123", "localhost", "5555"],
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "ClientConsole (alice456 - Port 8080)",
+            "request": "launch",
+            "mainClass": "edu.seg2105.client.ui.ClientConsole",
+            "projectName": "2_d2571fc3",
+            "args": ["alice456", "localhost", "8080"],
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "EchoServer (Legacy - No UI)",
+            "request": "launch",
+            "mainClass": "edu.seg2105.edu.server.backend.EchoServer",
+            "projectName": "2_d2571fc3",
+            "console": "integratedTerminal"
+        }
+    ]
+}
