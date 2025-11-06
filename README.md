@@ -1,0 +1,1 @@
+Entry point for the client is ClinedConsole.java and entrypoint for the server is ServerConsole.java
